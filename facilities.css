@@ -90,16 +90,16 @@ nav img {
   /* text-transform: uppercase; */
 }
 
+
 .hotelname {
   font-family: "Nunito", sans-serif;
-  font-size: 32px;
+  
   font-weight: 700;
   font-style: normal;
-  font-size: 154px;
-  line-height: 125px;
-  letter-spacing: 0.07em;
+  font-size: 130px;
+  
   color: #fff;
-  /* text-transform: uppercase; */
+  
 }
 
 .suite {
@@ -107,17 +107,17 @@ nav img {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 60px;
-  line-height: 69px;
+  font-size: 40px;
+  line-height: 65px;
   letter-spacing: 0.4em;
 }
 
 .dimon p {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
-  font-weight: 500;
-  letter-spacing: 0.04em;
+  
+  letter-spacing: 5px;
 }
 
 @media (max-width: 765px) {
@@ -126,6 +126,16 @@ nav img {
     color: white;
     margin-left: 4%;
   }
+  .hotelname {
+    font-family: "Nunito", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    font-style: normal;
+    
+    color: #fff;
+    
+  }
+  
 }
 
 .btn {
