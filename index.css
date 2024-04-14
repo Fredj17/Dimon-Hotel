@@ -93,14 +93,12 @@ nav img {
 
 .hotelname {
   font-family: "Nunito", sans-serif;
-  font-size: 32px;
+
   font-weight: 700;
   font-style: normal;
-  font-size: 154px;
-  line-height: 125px;
-  letter-spacing: 0.07em;
+  font-size: 130px;
+
   color: #fff;
-  /* text-transform: uppercase; */
 }
 
 .suite {
@@ -108,7 +106,7 @@ nav img {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 60px;
+  font-size: 40px;
   line-height: 65px;
   letter-spacing: 0.4em;
 }
@@ -125,7 +123,15 @@ nav img {
   .dimon {
     margin-top: 50px;
     color: white;
-    margin-left: 4%;
+    margin-left: 1%;
+  }
+  .hotelname {
+    font-family: "Nunito", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    font-style: normal;
+
+    color: #fff;
   }
 }
 
@@ -199,9 +205,19 @@ nav img {
 .container-content {
   display: grid;
   grid-template-columns: 45px 1fr 1fr;
-  margin: 50px 150px;
+  margin: 50px 50px;
   letter-spacing: 0.0075em;
   /* border: 1px solid black; */
+}
+
+@media (max-width: 700px) {
+  .container-content {
+    display: grid;
+    grid-template-columns: 45px 1fr 1fr;
+    margin: 50px 4%;
+    letter-spacing: 0.0075em;
+    /* border: 1px solid black; */
+  }
 }
 .container-content::before {
   content: "";
@@ -213,6 +229,7 @@ nav img {
 .container_text {
   display: flex;
   align-items: flex-start;
+
   justify-content: center;
   flex-direction: column;
   padding-right: 60px;
@@ -231,9 +248,8 @@ nav img {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 20px;
-  text-align: left;
+
   margin-bottom: 10px;
-  overflow-wrap: break-word;
 }
 .content_btn {
   border: transparent;
@@ -253,15 +269,11 @@ nav img {
   color: #fff;
   text-decoration: none;
 }
-.img_content {
-  width: 800px;
-  height: 500px;
+
+.image {
+  width: 90%;
 }
-.img_content img {
-  max-width: 100%;
-  max-height: 100%;
-  overflow: hidden;
-}
+
 @media (max-width: 700px) {
   .container-content {
     display: flex;
@@ -274,18 +286,15 @@ nav img {
     width: 100%;
     align-items: center;
   }
-  .img_content {
-    width: 400px;
-    height: 250px;
-  }
-  .img_content img {
-    max-width: 100%;
-  }
+
   .container-content::before {
     content: "";
     border-left: 3px solid rgb(0, 9, 75);
     width: 0;
     height: 0;
+  }
+  .image {
+    width: 80%;
   }
 }
 @media (max-width: 990px) {
@@ -312,8 +321,7 @@ nav img {
 
 /* Footer */
 .footer {
-  width: 100%;
-  margin-top: 300px;
+  margin-top: 330px;
   color: white;
   background-color: black;
   height: 230px;
@@ -331,14 +339,11 @@ nav img {
 .innerfootertext ul li {
   list-style: none;
   padding-bottom: 20px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .innerfootertext ul li a {
-  list-style: none;
   text-decoration: none;
   color: white;
-  font-family: "Nunito", sans-serif;
 }
 
 .innerfootertext2 ul li {
@@ -380,7 +385,6 @@ nav img {
   background-color: #0096ff;
   border: transparent;
   color: #fff;
-  /* padding: 2px 2px; */
   cursor: pointer;
 }
 
@@ -420,7 +424,7 @@ nav img {
     margin-top: 300px;
     color: white;
     background-color: black;
-    height: 570px;
+    height: 670px;
     display: block;
     padding-top: 40px;
     font-size: 16px;
